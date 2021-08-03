@@ -20,7 +20,7 @@ namespace WebApiTransferencia.Controllers
         {
             _context = context;
         }
-
+                
         // GET: api/Transaccion
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Transaccion>>> GetTransacciones()
